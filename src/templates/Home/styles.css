@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Home {
+  width: 100vw;
+  height: 100vh;
+
+  background-image: url('../../assets/sunny.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Home h1 {
+  position: absolute;
+  left: 50%;
+  top: 15%;
+  transform: translate(-50%, 0);
+
+  color: aliceblue;
+}
+
+.Home .card {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  
+  min-width: 400px;
+  min-height: 600px;
+
+  background-color: black;
+}
+
+
+.Home footer {
+  position: absolute;
+  left: 50%;
+  top: 78%;
+  transform: translate(-50%, 0);
+
+  color: aliceblue;
+}

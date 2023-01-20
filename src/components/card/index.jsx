@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import searchCity from '../../utils/searchCity'
 import './styles.css'
 
+import searchCity from '../../utils/searchCity'
 import CityInfo from '../cityInfo'
 
 const Card = () => {

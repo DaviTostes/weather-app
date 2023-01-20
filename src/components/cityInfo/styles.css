@@ -1,0 +1,9 @@
+.city-wrapper {
+  padding: 30px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  color: aliceblue;
+}

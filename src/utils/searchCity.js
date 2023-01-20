@@ -3,7 +3,6 @@ import axios from 'axios';
 const searchCity = async (cityName) => {
   try {
     const result = await axios.get(`https://goweather.herokuapp.com/weather/${cityName}`)
-    console.log(result.data)
     return (
       {
         name: cityName,
